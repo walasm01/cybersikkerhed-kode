@@ -8,7 +8,7 @@ body {
   padding: 0 2rem 0 2rem;
 }
 
-#text-group {
+.text-group {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,26 +16,26 @@ body {
   gap: 1rem;
   margin: 3rem 0 3rem 0;
 }
-#text-group img {
+.text-group img {
   max-width: 20rem;
 }
-#text-group p {
+.text-group p {
   color: #34FF6D;
   font-size: 20px;
   font-family: "Pixelify Sans", sans-serif;
 }
-#text-group #what {
+.text-group .what {
   font-size: 40px;
 }
 
-#btn-group {
+.btn-group {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 1rem;
 }
-#btn-group .btn {
+.btn-group .btn {
   height: 5rem;
   width: 15rem;
   border-radius: 15px;
@@ -43,4 +43,8 @@ body {
   border: 2px solid #fff;
   color: #fff;
   font-family: "Pixelify Sans", sans-serif;
+}
+
+.hidden {
+  display: none;
 }/*# sourceMappingURL=style.css.map */

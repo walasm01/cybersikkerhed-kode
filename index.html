@@ -11,15 +11,119 @@
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section id="text-group">
-        <p id="text">Du har modtaget denne besked</p>
-        <img src="img/mobilepay-phishing-besked.png" alt="#">
-        <p id="what">Hvad gør du?</p>
+
+    <!--SCENARIO 1-------------------------------------->
+    
+    <!--SCENARIO 1 - THE SCENARIO-->
+    <section id="s1">
+        <section class="text-group">
+            <p>Du har modtaget denne besked.</p>
+            <img src="img/mobilepay-phishing-besked.png" alt="#">
+            <p class="what">Hvad gør du?</p>
+        </section>
+        <section class="btn-group">
+            <button class="btn">Jeg ignorerer beskeden, og fortsætter med min dag</button>
+            <button class="btn">Jeg tjekker på MobilePay-appen for at se om jeg har fået nogle beskeder</button>
+            <button class="btn">Jeg ønsker ikke, at min konto bliver lukket, så jeg klikker på linket.</button>
+        </section>
     </section>
-    <section id="btn-group">
-        <button class="btn" id="btn1">Jeg ignorerer beskeden, og fortsætter med min dag</button>
-        <button class="btn" id="btn2">Jeg tjekker på MobilePay-appen for at se om jeg har fået nogle beskeder</button>
-        <button class="btn" id="btn3">Jeg ønsker ikke, at min konto bliver lukket, så jeg klikker på linket.</button>
+
+    <!--SCENARIO 1 - 1ST CHOICE-->
+    <section class="hidden" id="s1-1">
+        <section class="text-group">
+            <p>Beskeden var et forsøg på phishing, og du ignorerede den. Du har dog ikke sikret dig, om MobilePay faktisk skulle bruge dine oplysninger, hvilket er hensynsløst. Det rigtige valg havde været at tjekke om du havde fået nogle krav på oplysninger på MobilePay-appen.</p>
+        </section>
+        <section class="btn-group">
+            <button class="btn">Jeg ignorerer beskeden, og fortsætter med min dag</button>
+        </section>
+    </section>
+
+    <!--SCENARIO 1 - 2ND CHOICE-->
+    <section class="hidden" id="s1-2">
+        <section class="text-group">
+            <p>Du er gået ind på MobilePay-appen. Du har ingen notifikationer, der fortæller dig, at du skal angive oplysninger</p>
+        </section>
+        <section class="btn-group">
+            <button class="btn">Jeg går tilbage til beskeden</button>
+        </section>
+    </section>
+
+    <!--SCENARIO 1 - 3RD CHOICE-->
+    <section class="hidden" id="s1-3">
+        <section class="text-group">
+            <p>Du klikkede på linket. Et vindue åbner og beder dig indtaste følgende oplysninger:
+                Fulde navn:
+                Adresse:
+                E-mail:
+                CPR-nummer:
+                Bankoplysninger:</p>
+            <p class="what">Hvad gør du?</p>
+        </section>
+        <section class="btn-group">
+            <button class="btn">Jeg ignorerer beskeden, og fortsætter med min dag</button>
+            <button class="btn">Jeg tjekker på MobilePay-appen for at se om jeg har fået nogle beskeder</button>
+            <button class="btn">Jeg ønsker ikke, at min konto bliver lukket, så jeg klikker på linket.</button>
+        </section>
+    </section>
+
+
+    <!--SCENARIO 2------------------------------------------->
+
+    <!--SCENARIO 2 - THE SCENARIO-->
+    <section class="hidden" id="s2">
+        <section class="text-group">
+            <p>Du har modtaget denne besked</p>
+            <img src="img/postnord-legitim-besked.png" alt="#">
+            <p>Du husker, at du har bestilt en mikroovn fra POWER. Du ønsker at spore pakken.</p>
+            <p class="what">Hvad gør du?</p>
+        </section>
+        <section class="btn-group">
+            <button class="btn">Jeg ignorerer beskeden, og fortsætter med min dag</button>
+            <button class="btn">Jeg tjekker på MobilePay-appen for at se om jeg har fået nogle beskeder</button>
+            <button class="btn">Jeg ønsker ikke, at min konto bliver lukket, så jeg klikker på linket.</button>
+        </section>
+    </section>
+
+    <!--SCENARIO 2 - 1ST CHOICE-->
+    <section class="hidden" id="s2-1">
+        <section class="text-group">
+            <p>Du har modtaget denne besked. 2 btn 1</p>
+            <img src="img/mobilepay-phishing-besked.png" alt="#">
+            <p class="what">Hvad gør du?</p>
+        </section>
+        <section class="btn-group">
+            <button class="btn">Jeg ignorerer beskeden, og fortsætter med min dag</button>
+            <button class="btn">Jeg tjekker på MobilePay-appen for at se om jeg har fået nogle beskeder</button>
+            <button class="btn">Jeg ønsker ikke, at min konto bliver lukket, så jeg klikker på linket.</button>
+        </section>
+    </section>
+
+    <!--SCENARIO 2 - 2ND CHOICE-->
+    <section class="hidden" id="s2-2">
+        <section class="text-group">
+            <p>Du har modtaget denne besked. 2 btn 2</p>
+            <img src="img/mobilepay-phishing-besked.png" alt="#">
+            <p class="what">Hvad gør du?</p>
+        </section>
+        <section class="btn-group">
+            <button class="btn">Jeg ignorerer beskeden, og fortsætter med min dag</button>
+            <button class="btn">Jeg tjekker på MobilePay-appen for at se om jeg har fået nogle beskeder</button>
+            <button class="btn">Jeg ønsker ikke, at min konto bliver lukket, så jeg klikker på linket.</button>
+        </section>
+    </section>
+
+    <!--SCENARIO 2 - 3RD CHOICE-->
+    <section class="hidden" id="s2-3">
+        <section class="text-group">
+            <p>Du har modtaget denne besked. 2 btn 3</p>
+            <img src="img/mobilepay-phishing-besked.png" alt="#">
+            <p class="what">Hvad gør du?</p>
+        </section>
+        <section class="btn-group">
+            <button class="btn">Jeg ignorerer beskeden, og fortsætter med min dag</button>
+            <button class="btn">Jeg tjekker på MobilePay-appen for at se om jeg har fået nogle beskeder</button>
+            <button class="btn">Jeg ønsker ikke, at min konto bliver lukket, så jeg klikker på linket.</button>
+        </section>
     </section>
 </body>
 </html>

@@ -10,7 +10,7 @@ body {
     padding: 0 2rem 0 2rem;
 }
 
-#text-group {
+.text-group {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,12 +26,12 @@ body {
         font-size: 20px;
         font-family: 'Pixelify Sans', sans-serif;
     }
-    #what {
+    .what {
         font-size: 40px;
     }
 }
 
-#btn-group {
+.btn-group {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,4 +49,7 @@ body {
     }
 }
 
+.hidden {
+    display: none;
+}
 
