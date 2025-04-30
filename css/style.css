@@ -3,30 +3,44 @@
   box-sizing: border-box;
 }
 
-#frame {
-  width: 70vw;
-  height: 70vh;
-  border: 5px solid green;
+body {
+  background-color: #010001;
+  padding: 0 2rem 0 2rem;
+}
+
+#text-group {
   display: flex;
-  justify-self: center;
-  margin-top: 15vh;
-  justify-content: center;
   flex-direction: column;
-}
-#frame div {
-  display: flex;
   justify-content: center;
-  gap: 3rem;
+  align-items: center;
+  gap: 1rem;
+  margin: 3rem 0 3rem 0;
+}
+#text-group img {
+  max-width: 20rem;
+}
+#text-group p {
+  color: #34FF6D;
+  font-size: 20px;
+  font-family: "Pixelify Sans", sans-serif;
+}
+#text-group #what {
+  font-size: 40px;
 }
 
-#text {
-  height: 50vh;
-  width: 50vw;
-  border: 2px solid red;
-  margin: auto;
+#btn-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
-
-.btn {
+#btn-group .btn {
   height: 5rem;
-  width: 20rem;
+  width: 15rem;
+  border-radius: 15px;
+  background-color: #26252A;
+  border: 2px solid #fff;
+  color: #fff;
+  font-family: "Pixelify Sans", sans-serif;
 }/*# sourceMappingURL=style.css.map */
