@@ -1,1 +1,35 @@
 @use 'partial'; // Henter '_partial.scss' ind som modul
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#frame {
+    width: 70vw;
+    height: 70vh;
+    border: 5px solid green;
+    display: flex;
+    justify-self: center;
+    margin-top: 15vh;
+    justify-content: center;
+    flex-direction: column;
+
+    div {
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+    }
+}
+
+#text {
+    height: 50vh;
+    width: 50vw;
+    border: 2px solid red;
+    margin: auto;
+}
+
+.btn {
+    height: 5rem;
+    width: 20rem;
+}
