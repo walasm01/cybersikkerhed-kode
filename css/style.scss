@@ -29,6 +29,9 @@ body {
     .what {
         font-size: 40px;
     }
+    span {
+        color: #FFE17E;
+    }
 }
 
 .btn-group {
@@ -38,7 +41,7 @@ body {
     align-items: center;
     gap: 1rem;
 
-    .btn {
+    button {
         height: 5rem;
         width: 15rem;
         border-radius: 15px;

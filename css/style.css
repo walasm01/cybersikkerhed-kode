@@ -27,6 +27,9 @@ body {
 .text-group .what {
   font-size: 40px;
 }
+.text-group span {
+  color: #FFE17E;
+}
 
 .btn-group {
   display: flex;
@@ -35,7 +38,7 @@ body {
   align-items: center;
   gap: 1rem;
 }
-.btn-group .btn {
+.btn-group button {
   height: 5rem;
   width: 15rem;
   border-radius: 15px;
